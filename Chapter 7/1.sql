@@ -1,0 +1,1 @@
+SELECT onum, snum, amt*.12 as comm12 FROM Orders

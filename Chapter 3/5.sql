@@ -1,0 +1,1 @@
+SELECT city, sname, snum, comm FROM Salespeople
