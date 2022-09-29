@@ -1,2 +1,7 @@
+/*Напишите запрос к таблице Продавцов, который дает
+  всех Продавцов таких что, если он из города London,
+  то его комиссионные не выше 0.11, а иначе - выше 0.13.*/
+
 SELECT * FROM Salespeople
-WHERE city = 'London' and 
+WHERE city = 'London' and
+	  (comm <= 0.11 or comm > 0.13)

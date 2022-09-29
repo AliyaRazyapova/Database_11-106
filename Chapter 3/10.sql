@@ -1,1 +1,5 @@
-SELECT distinct cnum From Orders
+/*Ќапишите  запрос,  который вывел бы значени€ cnum
+ всех заказчиков из таблицы «аказов без каких бы то ни было
+ повторений.*/
+ 
+ SELECT distinct cnum From Orders
