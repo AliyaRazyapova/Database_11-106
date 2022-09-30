@@ -2,7 +2,7 @@
    рая  выберет  имена и номера всех заказчиков с максимальными для их
    городов рейтингами.*/
    
-SELECT cnum, cname
+SELECT cname, cnum
 FROM Customers one
 WHERE rating = (SELECT MAX (rating)
 				FROM Customers two

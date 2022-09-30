@@ -1,10 +1,11 @@
+use Gruber2022
 --Главы 11-12--
 --Задача 1--
 /*Напишите команду SELECT использующую соотнесенный подзапрос,  кото-
    рая  выберет  имена и номера всех заказчиков с максимальными для их
    городов рейтингами.*/
    
-SELECT cnum, cname
+SELECT cname, cnum
 FROM Customers one
 WHERE rating = (SELECT MAX (rating)
 				FROM Customers two
